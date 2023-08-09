@@ -60,7 +60,7 @@ This doesn't necessarily mean that all parts of the string, in a bracket express
 
 ### Flags
 
-
+Flags create an exception to wrapping the regex in slash characters (\). They are inserted at the end of the regex but unfortunetly, we don't have one in this example.
 
 ### Character Escapes
 
