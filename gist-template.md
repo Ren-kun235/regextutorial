@@ -64,7 +64,9 @@ Flags create an exception to wrapping the regex in slash characters (\). They ar
 
 ### Character Escapes
 
+Character escapes allow certain variables to be treated literally. The best examples to understand is when we are using ()s or {}s and even []s.
 
+For example, (\/) allows the forward slash to be treated literally inside of the regex. (https?:\/\/) can then be translated to (https://) because of the (\) that is in front of the (/).
 
 ## Author
 
