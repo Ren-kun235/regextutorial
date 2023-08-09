@@ -56,7 +56,7 @@ Taking the previous example, inside of ([\da-z\.-]+), it may seem like the (\)s 
 
 ### The OR Operator
 
-
+This doesn't necessarily mean that all parts of the string, in a bracket expression, is required to be a part of the URL. It just means that within ([a-z\.]{2,6}) that the required result is has an alphabet (in this example, it is also case sensitive) between 2-6 total characters.
 
 ### Flags
 
